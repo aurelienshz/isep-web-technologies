@@ -2,7 +2,8 @@
 
 ## TP1 :
 
-J'ai utilisé des JSP dès les premières questions. Certains servlets redirigent donc la requête vers des JSP.
+J'ai utilisé des JSP dès les premières questions. Certains servlets redirigent donc la requête vers des JSP. Rétrospectivement, je suis conscient
+du manque d'élégance de cette solution, mais j'en ai tiré les enseignements (que j'ai essayé de mettre en pratique dans le projet MVC).
 
 ## TP2 (MVC) :
 
