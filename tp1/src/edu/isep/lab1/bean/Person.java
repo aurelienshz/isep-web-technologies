@@ -1,11 +1,13 @@
-package bean;
+package edu.isep.lab1.bean;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class Person implements Serializable {
     private String firstName;
     private String lastName;
     private String gender;
+    private Date birth;
 
     public Person() {
 
@@ -33,5 +35,13 @@ public class Person implements Serializable {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public Date getBirth() {
+        return birth;
+    }
+
+    public void setBirth(Date birth) {
+        this.birth = birth;
     }
 }

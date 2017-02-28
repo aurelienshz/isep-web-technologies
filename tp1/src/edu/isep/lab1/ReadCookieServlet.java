@@ -1,3 +1,5 @@
+package edu.isep.lab1;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;

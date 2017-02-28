@@ -1,4 +1,4 @@
-package util;
+package edu.isep.lab1.util;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;

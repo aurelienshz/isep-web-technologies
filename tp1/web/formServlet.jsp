@@ -84,7 +84,7 @@
       <td><%= request.getParameter("firstName") %></td>
       <td><%= request.getParameter("lastName") %></td>
       <td><%= formattedDate %></td>
-      <td><% out.print(request.getParameter("gender").equals("M") ? "Male" : "Female"); %></td>
+      <td><%= request.getParameter("gender").equals("M") ? "Male" : "Female" %></td>
     </tr>
     </tbody>
   </table>

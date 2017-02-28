@@ -1,4 +1,6 @@
-import util.CookiesUtils;
+package edu.isep.lab1;
+
+import edu.isep.lab1.util.CookiesUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
