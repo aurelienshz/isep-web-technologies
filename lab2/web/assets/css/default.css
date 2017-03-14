@@ -1,0 +1,45 @@
+label {
+    display: flex;
+}
+
+label span, label input[type=text], label input[type=password], label input[type=date] {
+    flex: 1;
+}
+
+label span {
+    padding-right: 10px;
+    text-align: right;
+}
+
+label span.radio-input {
+    text-align: left;
+}
+
+input[type=submit] {
+    border: 1px solid #905ab5;
+    padding: 10px;
+    background-color: rgba(198, 119, 255, 0.49);
+}
+
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin: 0 0 20px 0;
+    border: 1px solid #905ab5;
+}
+
+label {
+    margin-bottom: 10px;
+}
+label:last-child {
+    margin-bottom: 0;
+}
+
+legend {
+    font-weight: bold;
+    color: #905ab5;
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ISEP - Web technologies</title>
+  <link href="https://fonts.googleapis.com/css?family=Griffy|Indie+Flower" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/default.css">
+</head>
+<body>
+
+<h1 id="greet">Hello !</h1>
+<form name="loginForm" action="/login" method="post" data-ajax-form-submit>
+  <fieldset>
+    <legend>Identifiers</legend>
+    <label>
+      <span>Login</span>
+      <input type="text" data-validate-not-empty data-field-name="Login" name="login">
+    </label>
+    <label>
+      <span>Password</span>
+      <input type="password" data-validate-not-empty data-field-name="Password" name="password"></label>
+  </fieldset>
+  <input type="submit">
+</form>
+
+<!-- Libs + Polyfills - AJAX calls  are made using Axios. Sorry, I can't use jQuery. My religion forbids it -->
+<script src="assets/lib/es6-promise.auto.min.js"></script>
+<script src="assets/lib/axios.min.js"></script>
+
+<!-- Actual real functional useful scripts -->
+<script src="assets/js/validateForms.js"></script>
+<script src="assets/js/ajaxLogin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ISEP - Web technologies</title>
+  <link href="https://fonts.googleapis.com/css?family=Griffy|Indie+Flower" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/default.css">
+</head>
+<body>
+
+<h1 id="greet">Hello !</h1>
+<p>Please register using the form below :</p>
+<p>Already registered ? <a href="/login">Login instead</a></p>
+<form name="personForm" action="/personForm" method="post" id="">
+  <fieldset>
+    <legend>Personal information</legend>
+    <label>
+      <span>First name :</span>
+      <input type="text" data-validate-not-empty data-field-name="First name" name="firstname">
+    </label>
+    <label>
+      <span>Last name :</span>
+      <input type="text" data-validate-not-empty data-field-name="Last name" name="lastname"></label>
+  </fieldset>
+  <fieldset>
+    <legend>Birth day</legend>
+    <label>
+      <span>Date :</span>
+      <input type="date" data-validate-not-empty data-field-name="Birth date">
+    </label>
+  </fieldset>
+  <fieldset>
+    <legend>Gender</legend>
+    <label>
+      <span>Male</span>
+      <span class="radio-input">
+        <input type="radio" name="gender" value="M">
+      </span>
+    </label>
+    <label>
+      <span>Female</span>
+      <span class="radio-input">
+        <input type="radio" name="gender" value="F">
+      </span>
+    </label>
+  </fieldset>
+  <input type="submit">
+</form>
+
+<!-- Actual real functional useful scripts -->
+<script src="assets/js/validateForms.js"></script>
+<script src="assets/js/mostBeautifulDesignIdeaWeHadThisYear.js"></script>
+
+</body>
+</html>
